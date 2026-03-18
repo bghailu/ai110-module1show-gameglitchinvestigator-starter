@@ -63,9 +63,9 @@ def update_score(current_score: int, outcome: str, attempt_number: int):
     if outcome == "Too High":
         if attempt_number % 2 == 0:
             return current_score + 5
-        return current_score - 5
+        return max(0, current_score - 5)
 
     if outcome == "Too Low":
-        return current_score - 5
+        return max(0, current_score - 5)
 
     return current_score
