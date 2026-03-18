@@ -47,13 +47,13 @@ This is a number guessing game built with Streamlit. The player picks a difficul
 
 > Add a screenshot of your winning game here — run `streamlit run app.py`, play to a win, then paste the screenshot below.
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+![Winning game screenshot](winning_game.png)
 
 **pytest results (Challenge 1):**
 
 > Run `pytest tests/ -v` in your terminal and paste a screenshot of the 8 passing tests here.
 
-- [ ] [Insert pytest screenshot here]
+![Pytest results screenshot](pytests_result.png)
 
 ## 🚀 Stretch Features
 
